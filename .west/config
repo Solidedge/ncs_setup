@@ -1,0 +1,6 @@
+[manifest]
+path = my_projects
+file = west.yml
+
+[zephyr]
+base = zephyr
