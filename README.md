@@ -9,7 +9,7 @@ git clone https://github.com/Solidedge/ncs_setup .
 ```
 Note that the folder must be empty!
 
-Followed up by updating west:
+Adjust my_projects/west.yml to satisfy your needs, before you follow up by updating west:
 ```
 west update
 ```
