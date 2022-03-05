@@ -1,0 +1,11 @@
+/bootloader
+/mbedtls
+/modules
+/nrf
+/nrfxlib
+/test
+/tools
+/zephyr
+/build
+/workspaces
+.code-workspace
