@@ -4,9 +4,6 @@ manifest:
     # nRF Connect SDK base URL.
     - name: ncs
       url-base: https://github.com/nrfconnect
-    # NCS project template
-    - name: ncs_project_template
-      url-base: https://github.com/Solidedge
     
   # The list of external projects for the nRF Connect SDK.
   projects:
@@ -14,13 +11,13 @@ manifest:
     - name: nrf
       remote: ncs
       repo-path: sdk-nrf
-      revision: master
+      revision: main
       import: true
       
     # Private projects:
     - name: ncs_project_template
       path: my_projects/ncs_project_template
-      revision: master
+      url: https://github.com/Solidedge/ncs_project_template
       
   # West-related configuration for the my_projects folder.
   self:
