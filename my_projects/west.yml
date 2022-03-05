@@ -1,0 +1,18 @@
+# Common repositories, installed parallel to this folder
+manifest:
+  remotes:
+      # nRF Connect SDK base URL.
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+  # The list of external projects for the nRF Connect SDK.
+  projects:
+    - name: nrf
+      remote: ncs
+      repo-path: sdk-nrf
+      revision: v1.9.1
+      import: true
+      # Set revision to latest tag
+
+# West-related configuration for the my_projects folder.
+  self:
+    path: my_projects
