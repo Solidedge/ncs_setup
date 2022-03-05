@@ -25,24 +25,7 @@ ncs
 ├── modules/...
 |
 ├── my_projects
-│   ├── ncs_project_template
-│   │   ├── applications
-│   │   │   └── app_template
-│   │   │   │   ├── include/...
-│   │   │   │   ├── src
-│   │   │   │   │   └── main.c
-│   │   │   │   ├── CMakeLists.txt
-│   │   │   │   ├── dts.overlay
-│   │   │   │   ├── Kconfig
-│   │   │   │   ├── prj.conf
-│   │   │   │   └── README.md
-│   │   ├── drivers/...
-│   │   ├── include/...
-│   │   ├── zephyr/...
-│   │   ├── CMakeLists.txt
-│   │   ├── Kconfig.prjtemp
-│   │   ├── README.md
-│   │   └── west.yml
+│   ├── ncs_project_template/...
 │   ├── .gitignore
 │   └── west.yml
 |
