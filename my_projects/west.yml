@@ -1,18 +1,27 @@
 # Common repositories, installed parallel to this folder
 manifest:
   remotes:
-      # nRF Connect SDK base URL.
+    # nRF Connect SDK base URL.
     - name: ncs
       url-base: https://github.com/nrfconnect
+    # NCS project template
+    - name: ncs_project_template
+      url-base: https://github.com/Solidedge
+    
   # The list of external projects for the nRF Connect SDK.
   projects:
+    # NCS files, might be overwritten for each project.
     - name: nrf
       remote: ncs
       repo-path: sdk-nrf
-      revision: v1.9.1
+      revision: master
       import: true
-      # Set revision to latest tag
-
-# West-related configuration for the my_projects folder.
+      
+    # Private projects:
+    - name: ncs_project_template
+      path: my_projects/ncs_project_template
+      revision: master
+      
+  # West-related configuration for the my_projects folder.
   self:
     path: my_projects
