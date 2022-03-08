@@ -14,7 +14,7 @@ manifest:
       revision: main
       import: true
       
-    # Private projects:
+    # Project Templates, remove before running west build to avoid troubles:
     - name: ncs_project_template
       path: my_projects/ncs_project_template
       url: https://github.com/Solidedge/ncs_project_template
