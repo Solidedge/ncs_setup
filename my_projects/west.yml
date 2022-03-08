@@ -18,6 +18,7 @@ manifest:
     - name: ncs_project_template
       path: my_projects/ncs_project_template
       url: https://github.com/Solidedge/ncs_project_template
+      revision: main
       
   # West-related configuration for the my_projects folder.
   self:
