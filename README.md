@@ -13,7 +13,14 @@ Adjust my_projects/west.yml to satisfy your needs, before you follow up by updat
 ```
 west update
 ```
-If the ncs_project_template and ncs_setup is succesfully downloaded, comment out or remove the mention of this repo in the west.yml file found in the my_projects folder.
+If the ncs_project_template and ncs_setup is succesfully downloaded, comment out or remove the mention of this repo in the west.yml file found in the my_projects folder:
+```
+    # Project Templates, remove before running west build to avoid troubles:
+    #- name: ncs_project_template
+    #  path: my_projects/ncs_project_template
+    #  url: https://github.com/Solidedge/ncs_project_template
+    #  revision: main
+```
 
 ## NCS Directory
 ```
