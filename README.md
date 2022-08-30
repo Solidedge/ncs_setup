@@ -2,7 +2,7 @@
 This repository is an outline of my nRF Connect SDK setup (NCS), and is setup in conjunction with my [NCS project template](https://github.com/Solidedge/ncs_project_template).
 
 # Installing
-Make sure you have the toolpath for nRF connect SDK installed on your computer. This can be done via the nRF connect Toolchain manager. Go to your desired folder and run the following command:
+Make sure you have the toolpath for nRF connect SDK installed on your computer. This can be done via the nRF connect Toolchain manager. Go to your desired folder, I prefer a folder named "ncs", and run the following command:
 
 ```
 git clone https://github.com/Solidedge/ncs_setup .
@@ -24,7 +24,7 @@ If the ncs_project_template and ncs_setup is succesfully downloaded, comment out
 
 ## NCS Directory
 ```
-ncs
+ncs (the folder you should run the clone in)
 ├── .west
 │   └── config
 ├── bootloader/...
